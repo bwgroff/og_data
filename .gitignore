@@ -1,3 +1,4 @@
 *.csv
 *nohup.out
 .vagrant
+/workspace/.ipynb_checkpoints/*
