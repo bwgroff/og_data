@@ -159,37 +159,37 @@ CREATE TABLE `subscriptions` (
   KEY `subscription_subscription_41c24ea7` (`subscription_type`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1938159 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-LOAD DATA LOCAL INFILE "event_log_nulls.csv"
+LOAD DATA LOCAL INFILE "./null_corrected/event_log_nulls.csv"
 INTO TABLE og.event_log
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '\"'
 LINES TERMINATED BY '\n';
 
-LOAD DATA LOCAL INFILE "event_type_nulls.csv"
+LOAD DATA LOCAL INFILE "./null_corrected/event_type_nulls.csv"
 INTO TABLE og.event_types
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '\"'
 LINES TERMINATED BY '\r\n';
 
-LOAD DATA LOCAL INFILE "order_item_nulls.csv"
+LOAD DATA LOCAL INFILE "./null_corrected/order_item_nulls.csv"
 INTO TABLE og.order_items
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '\"'
 LINES TERMINATED BY '\r\n';
 
-LOAD DATA LOCAL INFILE "order_order_nulls.csv"
+LOAD DATA LOCAL INFILE "./null_corrected/order_order_nulls.csv"
 INTO TABLE og.orders
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '\"'
 LINES TERMINATED BY '\r\n';
 
-LOAD DATA LOCAL INFILE "product_product_nulls.csv"
+LOAD DATA LOCAL INFILE "./null_corrected/product_product_nulls.csv"
 INTO TABLE og.products
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '\"'
 LINES TERMINATED BY '\r\n';
 
-LOAD DATA LOCAL INFILE "subscription_subscription_nulls.csv"
+LOAD DATA LOCAL INFILE "./null_corrected/subscription_subscription_nulls.csv"
 INTO TABLE og.subscriptions
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '\"'

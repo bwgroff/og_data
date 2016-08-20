@@ -13,6 +13,9 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "ubuntu/trusty64"
+  config.vm.provider :virtualbox do |vb|
+    vb.name = "ordergroove"
+  end
   Dir.glob("provision/*.sh").each do |script|
     config.vm.provision :shell, path: script
   end
