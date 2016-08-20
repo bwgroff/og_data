@@ -33,11 +33,13 @@
 <script src="sankey.js"></script>
 <script>
 
+var g;
+
 var units = "Widgets";
 
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 700 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+    width = 1000 - margin.left - margin.right,
+    height = 1000 - margin.top - margin.bottom;
 
 var formatNumber = d3.format(",.0f"),    // zero decimal places
     format = function(d) { return formatNumber(d) + " " + units; },
@@ -60,7 +62,9 @@ var sankey = d3.sankey()
 var path = sankey.link();
 
 // load the data
-d3.json("sankey-formatted.json", function(error, graph) {
+d3.json("graph.json", function(error, graph) {
+
+  g = graph;
 
   sankey
       .nodes(graph.nodes)
