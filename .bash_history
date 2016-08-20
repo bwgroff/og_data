@@ -480,3 +480,17 @@ kill 16824
 kill 16791
 #1471698288
 l
+#1471699176
+cd workspace/
+#1471699176
+l
+#1471699180
+alias
+#1471699196
+jup --no-browser --ip-0.0.0.0
+#1471699201
+jup --no-browser --ip-0.0.0.0
+#1471699215
+alias
+#1471699255
+jupyter notebook --no-browser --ip=0.0.0.0
