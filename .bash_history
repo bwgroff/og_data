@@ -494,3 +494,37 @@ jup --no-browser --ip-0.0.0.0
 alias
 #1471699255
 jupyter notebook --no-browser --ip=0.0.0.0
+#1471704170
+cd workspace/
+#1471704172
+cd data/
+#1471704172
+l
+#1471704175
+history
+#1471704179
+cp graph.json ../visapp/graph.json 
+#1471704785
+cp graph.json ../visapp/graph.json 
+#1471705132
+cp graph.json ../visapp/graph.json 
+#1471705182
+cp graph.json ../visapp/graph.json 
+#1471705223
+cp graph.json ../visapp/graph.json 
+#1471705274
+cp graph.json ../visapp/graph.json 
+#1471705360
+cp graph.json ../visapp/graph.json 
+#1471705416
+cp graph.json ../visapp/graph.json 
+#1471705449
+cp graph.json ../visapp/graph.json 
+#1471707511
+db
+#1471704083
+cd workspace/
+#1471704083
+l
+#1471704096
+jup --no-browser --ip=0.0.0.0

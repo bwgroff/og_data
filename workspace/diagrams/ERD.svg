@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1174.7972"
+   height="956.15234"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="ERD.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="566.05276"
+     inkscape:cy="501.68335"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1395"
+     inkscape:window-height="977"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1353.8349,-111.86218)">
+    <g
+       id="g3248"
+       transform="translate(1816.9848,-175.76654)">
+      <g
+         id="g3233">
+        <g
+           id="g3209"
+           transform="translate(-242.43661,30.304576)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text3001"
+             y="273.53458"
+             x="38.385799"
+             style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               y="273.53458"
+               x="38.385799"
+               id="tspan3003"
+               sodipodi:role="line">TABLE `event_log` (</tspan><tspan
+               id="tspan3005"
+               y="287.28458"
+               x="38.385799"
+               sodipodi:role="line">  `id` int</tspan><tspan
+               id="tspan3007"
+               y="301.03458"
+               x="38.385799"
+               sodipodi:role="line">  `type_id` int</tspan><tspan
+               id="tspan3009"
+               y="314.78458"
+               x="38.385799"
+               sodipodi:role="line">  `object_id` int</tspan><tspan
+               id="tspan3011"
+               y="328.53458"
+               x="38.385799"
+               sodipodi:role="line">  `object_metadata` longtext</tspan><tspan
+               id="tspan3013"
+               y="342.28458"
+               x="38.385799"
+               sodipodi:role="line">  `customer_id` int</tspan><tspan
+               id="tspan3015"
+               y="356.03458"
+               x="38.385799"
+               sodipodi:role="line">  `logged` datetime</tspan><tspan
+               id="tspan3017"
+               y="369.78458"
+               x="38.385799"
+               sodipodi:role="line">  `sent` datetime</tspan><tspan
+               id="tspan3019"
+               y="383.53458"
+               x="38.385799"
+               sodipodi:role="line">  `viewed` datetime</tspan><tspan
+               id="tspan3021"
+               y="397.28458"
+               x="38.385799"
+               sodipodi:role="line">  `email_html` longtext</tspan></text>
+          <rect
+             y="258.38226"
+             x="34.345188"
+             height="145.46196"
+             width="167.68533"
+             id="rect3207"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3368"
+       transform="translate(1534.0364,72.552567)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985"
+         y="59.382233"
+         x="-174.75638"
+         style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="59.382233"
+           x="-174.75638"
+           id="tspan2987"
+           sodipodi:role="line">TABLE `event_types` (</tspan><tspan
+           id="tspan2989"
+           y="73.132233"
+           x="-174.75638"
+           sodipodi:role="line">  `id` int</tspan><tspan
+           id="tspan2991"
+           y="86.882233"
+           x="-174.75638"
+           sodipodi:role="line">  `name` varchar(100</tspan><tspan
+           id="tspan2993"
+           y="100.63223"
+           x="-174.75638"
+           sodipodi:role="line">  `application` smallint</tspan><tspan
+           id="tspan2995"
+           y="114.38223"
+           x="-174.75638"
+           sodipodi:role="line">  `live` tinyint</tspan><tspan
+           id="tspan2997"
+           y="128.13223"
+           x="-174.75638"
+           sodipodi:role="line">  `instant_email` tinyint</tspan><tspan
+           id="tspan2999"
+           y="141.88223"
+           x="-174.75638"
+           sodipodi:role="line">  `og_id` int</tspan></text>
+      <rect
+         y="42.209637"
+         x="-177.78685"
+         height="113.13708"
+         width="138.3909"
+         id="rect3223"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3264"
+       transform="translate(2039.2185,414.16255)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3023"
+         y="171.50916"
+         x="272.74118"
+         style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="171.50916"
+           x="272.74118"
+           id="tspan3025"
+           sodipodi:role="line">TABLE `order_items` (</tspan><tspan
+           id="tspan3027"
+           y="185.25916"
+           x="272.74118"
+           sodipodi:role="line">  `id` int</tspan><tspan
+           id="tspan3029"
+           y="199.00916"
+           x="272.74118"
+           sodipodi:role="line">  `order_id` int</tspan><tspan
+           id="tspan3031"
+           y="212.75916"
+           x="272.74118"
+           sodipodi:role="line">  `subscription_id` int</tspan><tspan
+           id="tspan3033"
+           y="226.50916"
+           x="272.74118"
+           sodipodi:role="line">  `product_id` int</tspan><tspan
+           id="tspan3035"
+           y="240.25916"
+           x="272.74118"
+           sodipodi:role="line">  `product_attribute_id` int</tspan><tspan
+           id="tspan3037"
+           y="254.00916"
+           x="272.74118"
+           sodipodi:role="line">  `quantity` smallint</tspan><tspan
+           id="tspan3039"
+           y="267.75916"
+           x="272.74118"
+           sodipodi:role="line">  `price` decimal(16,2)</tspan><tspan
+           id="tspan3041"
+           y="281.50916"
+           x="272.74118"
+           sodipodi:role="line">  `extra_cost` decimal(16,2)</tspan><tspan
+           id="tspan3043"
+           y="295.25916"
+           x="272.74118"
+           sodipodi:role="line">  `frozen` tinyint</tspan><tspan
+           id="tspan3045"
+           y="309.00916"
+           x="272.74118"
+           sodipodi:role="line">  `total_price` decimal(16,2)</tspan><tspan
+           id="tspan3047"
+           y="322.75916"
+           x="272.74118"
+           sodipodi:role="line">  `first_placed` datetime</tspan><tspan
+           id="tspan3049"
+           y="336.50916"
+           x="272.74118"
+           sodipodi:role="line">  `offer_id` int</tspan><tspan
+           id="tspan3051"
+           y="350.25916"
+           x="272.74118"
+           sodipodi:role="line">  `one_time` tinyint</tspan><tspan
+           id="tspan3053"
+           y="364.00916"
+           x="272.74118"
+           sodipodi:role="line">  `public_id` varchar(40)</tspan></text>
+      <rect
+         y="155.34673"
+         x="263.64981"
+         height="222.23357"
+         width="174.75639"
+         id="rect3225"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3283"
+       transform="translate(1691.7259,285.87317)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3055"
+         y="469.50415"
+         x="266.68027"
+         style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="469.50415"
+           x="266.68027"
+           id="tspan3057"
+           sodipodi:role="line">TABLE `orders` (</tspan><tspan
+           id="tspan3059"
+           y="483.25415"
+           x="266.68027"
+           sodipodi:role="line">  `id` int</tspan><tspan
+           id="tspan3061"
+           y="497.00415"
+           x="266.68027"
+           sodipodi:role="line">  `merchant_id` int</tspan><tspan
+           id="tspan3063"
+           y="510.75415"
+           x="266.68027"
+           sodipodi:role="line">  `customer_id` int</tspan><tspan
+           id="tspan3065"
+           y="524.50415"
+           x="266.68027"
+           sodipodi:role="line">  `sub_total` decimal(16,2)</tspan><tspan
+           id="tspan3067"
+           y="538.25415"
+           x="266.68027"
+           sodipodi:role="line">  `tax_total` decimal(16,2)</tspan><tspan
+           id="tspan3069"
+           y="552.00415"
+           x="266.68027"
+           sodipodi:role="line">  `shipping_total` decimal(16,2)</tspan><tspan
+           id="tspan3071"
+           y="565.75415"
+           x="266.68027"
+           sodipodi:role="line">  `discount_total` decimal(16,2)</tspan><tspan
+           id="tspan3073"
+           y="579.50415"
+           x="266.68027"
+           sodipodi:role="line">  `total` decimal(16,2)</tspan><tspan
+           id="tspan3075"
+           y="593.25415"
+           x="266.68027"
+           sodipodi:role="line">  `payment_id` int</tspan><tspan
+           id="tspan3077"
+           y="607.00415"
+           x="266.68027"
+           sodipodi:role="line">  `shipping_address_id` int</tspan><tspan
+           id="tspan3079"
+           y="620.75415"
+           x="266.68027"
+           sodipodi:role="line">  `created` datetime</tspan><tspan
+           id="tspan3081"
+           y="634.50415"
+           x="266.68027"
+           sodipodi:role="line">  `place` datetime</tspan><tspan
+           id="tspan3083"
+           y="648.25415"
+           x="266.68027"
+           sodipodi:role="line">  `cancelled` datetime</tspan><tspan
+           id="tspan3085"
+           y="662.00415"
+           x="266.68027"
+           sodipodi:role="line">  `status` smallint</tspan><tspan
+           id="tspan3087"
+           y="675.75415"
+           x="266.68027"
+           sodipodi:role="line">  `order_merchant_id` varchar(64)</tspan><tspan
+           id="tspan3089"
+           y="689.50415"
+           x="266.68027"
+           sodipodi:role="line">  `rejected_message` varchar(102</tspan><tspan
+           id="tspan3091"
+           y="703.25415"
+           x="266.68027"
+           sodipodi:role="line">  `public_id` varchar(40)</tspan><tspan
+           id="tspan3093"
+           y="717.00415"
+           x="266.68027"
+           sodipodi:role="line">  `extra_data` varchar(102</tspan><tspan
+           id="tspan3095"
+           y="730.75415"
+           x="266.68027"
+           sodipodi:role="line">  `type` smallint</tspan><tspan
+           id="tspan3097"
+           y="744.50415"
+           x="266.68027"
+           sodipodi:role="line">  `tries` int</tspan><tspan
+           id="tspan3099"
+           y="758.25415"
+           x="266.68027"
+           sodipodi:role="line">  `locked` tinyint</tspan><tspan
+           id="tspan3101"
+           y="772.00415"
+           x="266.68027"
+           sodipodi:role="line">  `generic_error_count` int</tspan></text>
+      <rect
+         y="456.37219"
+         x="261.62952"
+         height="325.26913"
+         width="204.05081"
+         id="rect3227"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3310"
+       transform="translate(1738.1929,10.101529)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3103"
+         y="221.00664"
+         x="590.93927"
+         style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="221.00664"
+           x="590.93927"
+           id="tspan3105"
+           sodipodi:role="line">TABLE `products` (</tspan><tspan
+           id="tspan3107"
+           y="234.75664"
+           x="590.93927"
+           sodipodi:role="line">  `id` int</tspan><tspan
+           id="tspan3109"
+           y="248.50664"
+           x="590.93927"
+           sodipodi:role="line">  `merchant_id` int</tspan><tspan
+           id="tspan3111"
+           y="262.25665"
+           x="590.93927"
+           sodipodi:role="line">  `name` varchar(102</tspan><tspan
+           id="tspan3113"
+           y="276.00662"
+           x="590.93927"
+           sodipodi:role="line">  `price` decimal(10,2)</tspan><tspan
+           id="tspan3115"
+           y="289.75662"
+           x="590.93927"
+           sodipodi:role="line">  `image_url` varchar(400</tspan><tspan
+           id="tspan3117"
+           y="303.50662"
+           x="590.93927"
+           sodipodi:role="line">  `detail_url` varchar(400</tspan><tspan
+           id="tspan3119"
+           y="317.25662"
+           x="590.93927"
+           sodipodi:role="line">  `external_product_id` varchar(64)</tspan><tspan
+           id="tspan3121"
+           y="331.00662"
+           x="590.93927"
+           sodipodi:role="line">  `sku` varchar(64)</tspan><tspan
+           id="tspan3123"
+           y="344.75662"
+           x="590.93927"
+           sodipodi:role="line">  `autoship_enabled` tinyint</tspan><tspan
+           id="tspan3125"
+           y="358.50662"
+           x="590.93927"
+           sodipodi:role="line">  `created` datetime</tspan><tspan
+           id="tspan3127"
+           y="372.25662"
+           x="590.93927"
+           sodipodi:role="line">  `last_update` datetime</tspan><tspan
+           id="tspan3129"
+           y="386.00662"
+           x="590.93927"
+           sodipodi:role="line">  `live` tinyint</tspan><tspan
+           id="tspan3131"
+           y="399.75662"
+           x="590.93927"
+           sodipodi:role="line">  `discontinued` tinyint</tspan><tspan
+           id="tspan3133"
+           y="413.50662"
+           x="590.93927"
+           sodipodi:role="line">  `offer_profile_id` int</tspan><tspan
+           id="tspan3135"
+           y="427.25662"
+           x="590.93927"
+           sodipodi:role="line">  `extra_data` varchar(102</tspan><tspan
+           id="tspan3137"
+           y="441.00662"
+           x="590.93927"
+           sodipodi:role="line">  `premier_enabled` smallint</tspan><tspan
+           id="tspan3139"
+           y="454.75662"
+           x="590.93927"
+           sodipodi:role="line">  `incentive_group_id` int</tspan><tspan
+           id="tspan3141"
+           y="468.50662"
+           x="590.93927"
+           sodipodi:role="line">  `product_type` varchar(20)</tspan></text>
+      <rect
+         y="206.8645"
+         x="586.89862"
+         height="271.73105"
+         width="203.04066"
+         id="rect3229"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3333"
+       transform="translate(1316.9593,-309.10668)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3143"
+         y="577.59052"
+         x="636.39612"
+         style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="577.59052"
+           x="636.39612"
+           id="tspan3145"
+           sodipodi:role="line">TABLE `subscriptions` (</tspan><tspan
+           id="tspan3147"
+           y="591.34052"
+           x="636.39612"
+           sodipodi:role="line">  `id` int</tspan><tspan
+           id="tspan3149"
+           y="605.09052"
+           x="636.39612"
+           sodipodi:role="line">  `public_id` varchar(40)</tspan><tspan
+           id="tspan3151"
+           y="618.84052"
+           x="636.39612"
+           sodipodi:role="line">  `customer_id` int</tspan><tspan
+           id="tspan3153"
+           y="632.59052"
+           x="636.39612"
+           sodipodi:role="line">  `merchant_id` int</tspan><tspan
+           id="tspan3155"
+           y="646.34052"
+           x="636.39612"
+           sodipodi:role="line">  `product_id` int</tspan><tspan
+           id="tspan3157"
+           y="660.09052"
+           x="636.39612"
+           sodipodi:role="line">  `product_attribute_id` int</tspan><tspan
+           id="tspan3159"
+           y="673.84052"
+           x="636.39612"
+           sodipodi:role="line">  `quantity` int</tspan><tspan
+           id="tspan3161"
+           y="687.59052"
+           x="636.39612"
+           sodipodi:role="line">  `payment_id` int</tspan><tspan
+           id="tspan3163"
+           y="701.34052"
+           x="636.39612"
+           sodipodi:role="line">  `shipping_address_id` int</tspan><tspan
+           id="tspan3165"
+           y="715.09052"
+           x="636.39612"
+           sodipodi:role="line">  `frequency_days` smallint</tspan><tspan
+           id="tspan3167"
+           y="728.84052"
+           x="636.39612"
+           sodipodi:role="line">  `reminder_days` smallint</tspan><tspan
+           id="tspan3169"
+           y="742.59052"
+           x="636.39612"
+           sodipodi:role="line">  `start_date` date NOT NULL,</tspan><tspan
+           id="tspan3171"
+           y="756.34052"
+           x="636.39612"
+           sodipodi:role="line">  `cancelled` datetime</tspan><tspan
+           id="tspan3173"
+           y="770.09052"
+           x="636.39612"
+           sodipodi:role="line">  `cancel_reason` varchar(512</tspan><tspan
+           id="tspan3175"
+           y="783.84052"
+           x="636.39612"
+           sodipodi:role="line">  `offer_id` int</tspan><tspan
+           id="tspan3177"
+           y="797.59052"
+           x="636.39612"
+           sodipodi:role="line">  `session_id` varchar(80)</tspan><tspan
+           id="tspan3179"
+           y="811.34052"
+           x="636.39612"
+           sodipodi:role="line">  `merchant_order_id` varchar(80)</tspan><tspan
+           id="tspan3181"
+           y="825.09052"
+           x="636.39612"
+           sodipodi:role="line">  `created` datetime</tspan><tspan
+           id="tspan3183"
+           y="838.84052"
+           x="636.39612"
+           sodipodi:role="line">  `live` tinyint</tspan><tspan
+           id="tspan3185"
+           y="852.59052"
+           x="636.39612"
+           sodipodi:role="line">  `every` int</tspan><tspan
+           id="tspan3187"
+           y="866.34052"
+           x="636.39612"
+           sodipodi:role="line">  `every_period` smallint</tspan><tspan
+           id="tspan3189"
+           y="880.09052"
+           x="636.39612"
+           sodipodi:role="line">  `customer_rep_id` int</tspan><tspan
+           id="tspan3191"
+           y="893.84052"
+           x="636.39612"
+           sodipodi:role="line">  `club_id` int</tspan><tspan
+           id="tspan3193"
+           y="907.59052"
+           x="636.39612"
+           sodipodi:role="line">  `iteration` smallint</tspan><tspan
+           id="tspan3195"
+           y="921.34052"
+           x="636.39612"
+           sodipodi:role="line">  `sequence` smallint</tspan><tspan
+           id="tspan3197"
+           y="935.09052"
+           x="636.39612"
+           sodipodi:role="line">  `extra_data` varchar(102</tspan><tspan
+           id="tspan3199"
+           y="948.84052"
+           x="636.39612"
+           sodipodi:role="line">  `updated` datetime</tspan><tspan
+           id="tspan3201"
+           y="962.59052"
+           x="636.39612"
+           sodipodi:role="line">  `subscription_type` varchar(20)</tspan><tspan
+           id="tspan3203"
+           y="976.34052"
+           x="636.39612"
+           sodipodi:role="line">  `price` decimal(16,2)</tspan><tspan
+           id="tspan3205"
+           y="990.09052"
+           x="636.39612"
+           sodipodi:role="line" /></text>
+      <rect
+         y="563.44836"
+         x="631.34534"
+         height="423.25391"
+         width="197.9899"
+         id="rect3231"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1360.3959"
+       y="341.21481"
+       id="text3381"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3383"
+         x="1360.3959"
+         y="341.21481">TABLE customer (omitted)</tspan><tspan
+         sodipodi:role="line"
+         x="1360.3959"
+         y="354.96481"
+         id="tspan3387">   `id` int</tspan><tspan
+         sodipodi:role="line"
+         x="1360.3959"
+         y="368.71481"
+         id="tspan3391">    ???</tspan></text>
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3393"
+       width="154.55334"
+       height="46.467018"
+       x="1354.335"
+       y="328.08282" />
+    <g
+       id="g3402"
+       transform="translate(1478.5837,31.314729)">
+      <g
+         id="g3414">
+        <text
+           sodipodi:linespacing="125%"
+           id="text3404"
+           y="390.71228"
+           x="-118.18785"
+           style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="390.71228"
+             x="-118.18785"
+             id="tspan3406"
+             sodipodi:role="line">TABLE merchant (omitted)</tspan><tspan
+             id="tspan3408"
+             y="404.46228"
+             x="-118.18785"
+             sodipodi:role="line">   `id` int</tspan><tspan
+             id="tspan3410"
+             y="418.21228"
+             x="-118.18785"
+             sodipodi:role="line">    ???</tspan></text>
+        <rect
+           y="377.58029"
+           x="-124.24876"
+           height="46.467018"
+           width="154.55334"
+           id="rect3412"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1431.3862,351.31632 137.3807,0"
+       id="path3421"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1419.2643,432.12852 144.4518,0"
+       id="path3423"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2311.229,624.0575 -43.4365,0 0,-346.48232 -255.5686,-1.01015"
+       id="path3425"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2311.229,608.90522 -100.0051,0"
+       id="path3427"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2025.3559,765.47886 166.6751,0 0,-156.57364 18.1828,0"
+       id="path3429"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2311.229,637.18949 -19.1929,0 0,-396.98995 39.396,0"
+       id="path3431"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1360.3959"
+       y="496.77829"
+       id="text3437"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3439"
+         x="1360.3959"
+         y="496.77829">TABLE offer (omitted)</tspan><tspan
+         sodipodi:role="line"
+         x="1360.3959"
+         y="510.52829"
+         id="tspan3441">   `id` int</tspan><tspan
+         sodipodi:role="line"
+         x="1360.3959"
+         y="524.27832"
+         id="tspan3443">    ???</tspan></text>
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3445"
+       width="154.55334"
+       height="46.467018"
+       x="1354.335"
+       y="483.6463" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2315.2696,746.28596 -75.7614,0 0,-26.26396 -658.6195,0 0,-214.15234 -21.2132,0"
+       id="path3449"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1959.6959,778.61084 -314.1574,0 0,-347.49247 -86.8731,0"
+       id="path3451"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1959.6959,793.76313 -260.6193,0 0,-441.43666 -131.3198,0"
+       id="path3453"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1959.6959,957.40784 -342.4417,0 0,-526.28947"
+       id="path3455"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3457"
+       y="573.54993"
+       x="1360.3959"
+       style="font-size:11px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="573.54993"
+         x="1360.3959"
+         sodipodi:role="line"
+         id="tspan3469">TABLE payment (omitted)</tspan><tspan
+         id="tspan3461"
+         y="587.29993"
+         x="1360.3959"
+         sodipodi:role="line">   `id` int</tspan><tspan
+         id="tspan3463"
+         y="601.04993"
+         x="1360.3959"
+         sodipodi:role="line">    ???</tspan></text>
+    <rect
+       y="560.41791"
+       x="1354.335"
+       height="46.467018"
+       width="154.55334"
+       id="rect3465"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1959.6959,876.59564 -399.0102,0 0,-292.94424"
+       id="path3473"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1954.6452,303.83915 -285.8732,0 0,48.48732"
+       id="path3475"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1955.6553,318.99143 -195.9696,0 0,113.13709 -120.2081,0"
+       id="path3477"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2055.6604,334.14372 161.6244,0 0,-92.93403 76.7716,0"
+       id="path3479"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1956.6655,374.54982 -134.3503,0 0,213.14219 -263.6498,-3.03046"
+       id="path3481"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1955.6553,469.50416 -76.7716,0 0,34.34519 -300.0153,0"
+       id="path3483"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:1"
+       id="rect3485"
+       width="164.65486"
+       height="13.131983"
+       x="2330.4219"
+       y="413.94577" />
+    <rect
+       y="455.362"
+       x="2331.4321"
+       height="13.131983"
+       width="164.65486"
+       id="rect4255"
+       style="fill:none;stroke:#ff0000;stroke-width:1" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:1"
+       id="rect4257"
+       width="164.65486"
+       height="13.131983"
+       x="2312.2393"
+       y="741.23523" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1617.2542,192.72237 -70.7107,0 0,157.58379"
+       id="path4264"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4266"
+       width="154.55334"
+       height="46.467018"
+       x="1354.335"
+       y="630.41797" />
+    <rect
+       y="698.98938"
+       x="1354.335"
+       height="46.467018"
+       width="154.55334"
+       id="rect4268"
+       style="fill:none;stroke:#4d4d4d;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       y="766.13226"
+       x="1354.335"
+       height="46.467018"
+       width="154.55334"
+       id="rect4270"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       style="fill:none;stroke:#cccccc;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4272"
+       width="154.55334"
+       height="46.467018"
+       x="1354.335"
+       y="834.70367" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4293"
+       width="138.57143"
+       height="35"
+       x="1356.4286"
+       y="114.36218" />
+    <rect
+       y="114.36218"
+       x="1356.4286"
+       height="18.571428"
+       width="138.57141"
+       id="rect4295"
+       style="fill:none;stroke:#000000;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       y="112.36218"
+       x="1608.5714"
+       height="35"
+       width="167.0405"
+       id="rect4303"
+       style="fill:none;stroke:#000000;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4305"
+       width="167.04048"
+       height="17.857143"
+       x="1608.5714"
+       y="112.36218" />
+    <g
+       id="g4319"
+       transform="translate(1478.5837,106.06602)">
+      <rect
+         y="148.43903"
+         x="469.27353"
+         height="35"
+         width="199.08772"
+         id="rect4309"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4311"
+         width="199.08769"
+         height="17.142857"
+         x="469.27353"
+         y="148.43903" />
+    </g>
+    <g
+       id="g4323"
+       transform="matrix(1.0143153,0,0,1,1849.723,68.923163)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.99291831;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4325"
+         width="199.08772"
+         height="35"
+         x="469.27353"
+         y="148.43903" />
+      <rect
+         y="148.43903"
+         x="469.27353"
+         height="17.142857"
+         width="199.08769"
+         id="rect4327"
+         style="fill:none;stroke:#000000;stroke-width:0.99291831;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       transform="matrix(0.87831504,0,0,1,1890.6872,421.06602)"
+       id="g4329">
+      <rect
+         y="148.43903"
+         x="469.27353"
+         height="35"
+         width="199.08772"
+         id="rect4331"
+         style="fill:none;stroke:#000000;stroke-width:1.06702566;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1.06702566;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4333"
+         width="199.08769"
+         height="17.142857"
+         x="469.27353"
+         y="148.43903" />
+    </g>
+    <g
+       id="g4335"
+       transform="matrix(1.028574,0,0,1,1470.1747,592.49459)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.98601216;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4337"
+         width="199.08772"
+         height="35"
+         x="469.27353"
+         y="148.43903" />
+      <rect
+         y="148.43903"
+         x="469.27353"
+         height="17.142857"
+         width="199.08769"
+         id="rect4339"
+         style="fill:none;stroke:#000000;stroke-width:0.98601216;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.49777778;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3447"
+       d="m 1419.2643,506.87981 144.4518,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1419.2643,583.6514 144.4518,0"
+       id="path3467"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1444.2857,140.93361 115.7143,0 0,11.42857 52.8571,0"
+       id="path4430"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
