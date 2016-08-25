@@ -624,3 +624,25 @@ pyserve
 db
 #1472008494
 pyserve 
+#1472076242
+db
+#1472076042
+l
+#1472076044
+cd workspace/
+#1472076045
+l
+#1472076050
+history | grep jup
+#1472076055
+jup --no-browser --ip=0.0.0.0
+#1472140840
+l
+#1472140849
+cd workspace/
+#1472140850
+l
+#1472140857
+history | grep jup
+#1472140864
+jup --no-browser --ip=0.0.0.0
