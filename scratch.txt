@@ -1,0 +1,63 @@
+16928.08,25134.30,30037.06,37560.14,42210.55,42186.88,43727.37,45742.54,
+43118.33,47854.54,53622.73,53604.71,68263.94,39606.26,54303.31,81332.90,
+77712.81,79880.11,110630.87,155681.33,163048.56,202184.55,226294.80,246101.81,
+284164.84,332863.26,360383.82,395042.85,463482.24,461207.40,484016.33,657729.65,
+672490.97,853890.93,762438.64,886382.83,1008880.82,2431244.71,1435855.67,
+1500466.37,1666929.71,1932625.52,2135138.31,2507876.45,2771683.73,3090980.60,
+2984359.78,3139428.27,3168665.09,3513556.69,3443893.57,3764484.75,3672126.53,
+3593125.55,3677214.88,3999731.66,3892330.03,4253455.44,5318025.95,4830614.81,
+4842166.97,5150410.65,5430110.13,5700625.03,5826068.01,6134421.43,6430278.62,
+6428276.91,6310042.14,7246700.83,6704690.44,7104377.08,6798022.42,7288298.90,
+7661571.25,7782004.58,8100906.51,8223543.15,8215539.17,8725541.91,8296980.29,
+22965720228.34,9263722.33,10263565.82,10299085.95,10980107.99,6698630.79
+
+
+
+create table product_modal_frequency
+select product_id, frequency_days, max(count) as mode_count from
+  (select product_id, frequency_days, count(*) as count
+  from subscriptions
+  group by product_id, frequency_days
+  ) t
+group by product_id;
+
+select s.id, s.product_id, s.frequency_days, pmf.frequency_days as modal_freq, (s.frequency_days = pmf.frequency_days) as modal
+from subscriptions as s
+inner join product_modal_frequency as pmf
+on s.product_id = pmf.product_id limit 10;
+
+
+select m.*, n.num_orders from
+(select s.id, s.product_id, s.frequency_days, pmf.frequency_days as modal_freq, (s.frequency_days = pmf.frequency_days) as modal
+from subscriptions as s
+inner join product_modal_frequency as pmf
+on s.product_id = pmf.product_id) m
+inner join
+(select subscription_id, count(*) as num_orders from order_items group by subscription_id limit 10) n
+on m.id = n.subscription_id
+limit 10;
+
+create table modal_freq_orders
+select m.*, n.num_orders from
+(select s.id, s.product_id, s.frequency_days, pmf.frequency_days as modal_freq, (s.frequency_days = pmf.frequency_days) as modal
+from subscriptions as s
+inner join product_modal_frequency as pmf on s.product_id = pmf.product_id) m
+inner join (select subscription_id, count(*) as num_orders from order_items group by subscription_id) n
+on m.id = n.subscription_id;
+
+
+select s.id, s.frequency_days, sio.num_orders from
+subsc_item_orders as sio
+inner join
+subscriptions as s
+on s.id = sio.subscription_id
+limit 10;
+
+
+
+|    5657542 |    18079 | GilletteÂ® FusionÂ® ProGlideÂ® Manual Razor Blade Refills, 4 Count       | 19.49 |
+
+select s.frequency_days, sio.num_orders from subsc_item_orders as sio  inner join  subscriptions as s on s.id = sio.subscription_id where sio.product_id = 5657542 limit 10;
+
+
+select ns.*, p.name, price from (select product_id, count(*) as num_subs from subscriptions group by product_id order by num_subs desc limit 5) ns inner join products as p on p.id = ns.product_id;

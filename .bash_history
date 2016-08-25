@@ -528,3 +528,99 @@ cd workspace/
 l
 #1471704096
 jup --no-browser --ip=0.0.0.0
+#1471711620
+apt-cache search mysql
+#1471711628
+apt-cache search python3-mysql
+#1471711644
+sudo apt-get install python3-mysql.connector
+#1471712515
+cd workspace/
+#1471712516
+cd data/
+#1471712517
+l
+#1471712521
+db
+#1471712534
+l
+#1471712541
+db og < journey.sql 
+#1471713426
+db
+#1471824382
+db
+#1471825242
+db
+#1471825289
+sudo service mariadb stop
+#1471825294
+sudo service mysql stop
+#1471825316
+sudo service mysql start
+#1471825331
+db
+#1471825475
+sudo service mysql status
+#1471825486
+sudo service mysql stop
+#1471825501
+sudo service mysql start
+#1471825505
+db
+#1471825747
+history | grep journey.csv
+#1471825758
+l /var/lib/mysql/og
+#1471825761
+sudo ls /var/lib/mysql/og
+#1471825786
+sudo cp /var/lib/mysql/og/toads.csv ./toads.csv
+#1471825789
+less toads.csv 
+#1471825873
+db
+#1471711333
+cd workspace/
+#1471711333
+l
+#1471711348
+jup --no-browser --ip=0.0.0.0
+#1471997042
+l
+#1471997044
+cd workspace/
+#1471997050
+jup --no-browser --ip=0.0.0.0
+#1471996532
+l
+#1471996537
+cd workspace/
+#1471996537
+l
+#1471996547
+alias
+#1471996558
+history | grep jup
+#1471996564
+jup --no-browser --ip=0.0.0.0
+#1471997018
+db
+#1471997617
+history | grep cp
+#1471997652
+sudo cp /var/lib/mysql/og/orders_by_sub.csv data/orders_by_sub.csv
+#1471997662
+sudo cp /var/lib/mysql/og/orders_per_sub.csv data/orders_by_sub.csv
+#1471998031
+db
+#1472002212
+cd visapp/
+#1472002213
+l
+#1472002214
+pyserve
+#1472003428
+db
+#1472008494
+pyserve 
